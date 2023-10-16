@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+        }
+        .main,.other{
+            /* width: 80%; */
+            padding: 50px;
+            border: 2px solid #00241B;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .other{
+            border: none;
+        }
+        .other ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 600px;
+        }
+        .other ul li{
+            list-style-type: none;
+        }
+        .other ul li a{
+            text-decoration: none;
+            text-transform: capitalize;
+            color: black;
+            cursor: pointer;
+        }
+        .other ul li a:hover{
+            color: #00241B;
+            border-bottom: solid 1px #00241B;
+        }
+        h1,h2{
+            color: #00241B;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="top">
+        <div class="main">
+        <h1>Main Content</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem explicabo odit dolorem id nihil, dolor ex rerum molestiae error, est et libero eius laboriosam. Minus quod, quo qui autem consequatur sunt? Perspiciatis quasi deleniti quisquam blanditiis labore porro ex quaerat assumenda totam impedit perferendis cumque aperiam ut necessitatibus, reiciendis eveniet quo doloremque? Eveniet iusto esse adipisci deserunt id odit fuga, quis autem qui provident dolore. Alias, aspernatur fugit voluptatum tempora corrupti, omnis laudantium delectus, quas similique ipsum aliquid perferendis numquam! Eos delectus dicta at vitae quis exercitationem facilis modi deleniti eveniet magni perferendis, perspiciatis expedita possimus. Ullam aperiam vitae obcaecati.</p>
+        <img src="https://images.unsplash.com/photo-1526547541286-73a7aaa08f2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="Sunfloar picture" width="100"><br>
+        <img src="https://images.splash.com/photo-1526547541286-73a7aaa08f2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="Sunfloar picture" width="100">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<img src="https://images.unsplash.com/photo-1526547541286-73a7aaa08f2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="Sunfloar picture" width="100"> Rem explicabo odit dolorem id nihil, dolor ex rerum molestiae error, est et libero eius laboriosam. Minus quod, quo qui autem consequatur sunt? Perspiciatis quasi deleniti quisquam blanditiis labore porro ex quaerat assumenda totam impedit perferendis cumque aperiam ut necessitatibus, reiciendis eveniet quo doloremque? Eveniet iusto esse adipisci deserunt id odit fuga, quis autem qui provident dolore. Alias, aspernatur fugit voluptatum tempora corrupti, omnis laudantium delectus, quas similique ipsum aliquid perferendis numquam! Eos delectus dicta at vitae quis exercitationem facilis modi deleniti eveniet magni perferendis, perspiciatis expedita possimus. Ullam aperiam vitae obcaecati.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<img src="https://images.unsplash.com/photo-1526547541286-73a7aaa08f2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="Sunfloar picture" width="100" style="float: left;"> Rem explicabo odit dolorem id nihil, dolor ex rerum molestiae error, est et libero eius laboriosam. Minus quod, quo qui autem consequatur sunt? Perspiciatis quasi deleniti quisquam blanditiis labore porro ex quaerat assumenda totam impedit perferendis cumque aperiam ut necessitatibus, reiciendis eveniet quo doloremque? Eveniet iusto esse adipisci deserunt id odit fuga, quis autem qui provident dolore. Alias, aspernatur fugit voluptatum tempora corrupti, omnis laudantium delectus, quas similique ipsum aliquid perferendis numquam! Eos delectus dicta at vitae quis exercitationem facilis modi deleniti eveniet magni perferendis, perspiciatis expedita possimus. Ullam aperiam vitae obcaecati.</p> <br><br>
+        <div class="vedio" style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
+        <h2>Youtube vedio</h2>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/D268J9g5wl4" title="كيف تترك المعصية وتدمن الطاعة؟" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- <video src="./Create an animated colorful Border using HTML and CSS(720P_HD).mp4" width="400"></video> -->
+        <h2>loaded vedio</h2>
+        <video width="853" height="480" controls muted>
+            <!-- <source src="./Create an animated colorful Border using HTML and CSS(720P_HD).mp4" type="video/mp4"> -->
+            <source src="https://www.youtube.com/watch?v=sq8ZHD7FDwU" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+        </div>
+    </div>
+        <div class="other">
+            <h1>Other Links</h1>
+            <ul>
+                <li><a href="http://www.openstreetmap.org/">openstreetmap</a></li>
+                <li><a href="../Exo1/Lab1Exo1.html">Today NewsPaper</a></li>
+                <li><a href="https://www.youtube.com/watch?v=sq8ZHD7FDwU&list=RDMM9eF4JZVq4M4&index=4" target="_blank">Youtube</a></li>
+                <!--it will open the link in a new tab-->
+                <li><a href="../Exo1/Lab1Exo1.html#point1">MLB wild card</a></li>
+                <!--it will go to that specificale element that have the same id-->
+                <li><a href="#top">Go to Top</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

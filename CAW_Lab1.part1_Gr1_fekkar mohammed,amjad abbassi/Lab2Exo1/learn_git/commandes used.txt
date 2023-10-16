@@ -1,0 +1,16 @@
+//after installing git we need to create a folder 
+//then right click in it and select git bash so we write our commandes 
+1.mkdir learn_git
+2.cd learn_git
+3.touch three.txt
+4.git init
+5.git add three.txt
+6.git commit -m "three.txt added"
+7.git log
+8.touch four.txt
+9.git add four.txt
+10.git commit -m "added four.txt"
+11.rm three.txt
+12.git add three.txt
+13.git commit -m "delete three.txt"
+14.git log
